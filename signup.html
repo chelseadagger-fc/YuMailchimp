@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="bootstrap.min.css" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
    <title>CDFC Newsletter Sign-up</title>
 </head>
 <body>
     <main class="form-signin w-100 m-auto main-container">
-        <form>
+        <form method="post" action="/">
           <img class="mb-3 center raccoon mx-auto" src="./images/logo.jpeg" alt="a raccoon praising the sun" width="72" height="72">
           <h1 class="h3 mb-3 fw-normal">Join the newsletter!</h1>
       
-            <input type="text" class="form-control top" placeholder="First Name" required>
-            <input type="text" class="form-control middle" placeholder="Last Name" required>
-            <input type="email" class="form-control bottom" placeholder="E-mail Address" required>
+            <input type="text" name="fName" class="form-control top" placeholder="First Name" required>
+            <input type="text" name="lName" class="form-control middle" placeholder="Last Name" required>
+            <input type="email" name="email" class="form-control bottom" placeholder="E-mail Address" required>
           
           
       
